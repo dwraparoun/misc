@@ -1,1 +1,3 @@
-The code here is only for educational purposes.
+# misc
+
+The code here is for educational purposes only.
