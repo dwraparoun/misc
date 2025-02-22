@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+// ~/.config/Code/User/keybindings.json
+[
+    {
+        "key": "f2",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "alt+/",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "alt+.",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+]

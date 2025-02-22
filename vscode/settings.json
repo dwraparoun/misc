@@ -1,0 +1,57 @@
+{
+    "files.exclude": {
+        "build/": true,
+        ".cache": true,
+        ".vscode": true,
+        // ".*": true,
+    },
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.autocomplete": "disabled",
+    // "C_Cpp"
+    //"clangd.path": "/home/dimka/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "-j=2",
+        "--header-insertion=never",
+    ],
+    "clangd.enableCodeCompletion": true,
+    "clangd.enable": true,
+    "clangd.restartAfterCrash": true,
+    "clangd.checkUpdates": false,
+    "clangd.onConfigChanged": "restart",
+    "workbench.editor.languageDetection": true,
+    // "langua"
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "vscode-icons",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.formatOnSave": true,
+    },
+    "cmake.options.statusBarVisibility": "compact",
+    "cmake.skipConfigureIfCachePresent": true,
+    "cmake.enableAutomaticKitScan": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    // "cmake.ctestArgs": [
+    //     "--test-dir",
+    //     "build",
+    //     "--",
+    //     // "",
+    //     // "-R build"
+    // ],
+    //"cmake.ctest.testExplorerIntegrationEnabled": true,
+    "cmake.showOptionsMovedNotification": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.inlayHints.enabled": "off",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "qt-qml.doNotAskForQmllsDownload": true,
+    "qt-core.qtInstallationRoot": "/home/dimka/Qt",
+}
